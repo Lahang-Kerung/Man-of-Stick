@@ -83,7 +83,7 @@ class Fireball{
 		}
 		glEnd();
 	}
-
+	// Moves the fireball horizontally in the direction it was fired.
 	void move_x(){x += (dir * 10);}
 
 	bool inWindow(){
